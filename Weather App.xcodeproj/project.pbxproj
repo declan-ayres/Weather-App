@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DE91C562ABFB594004741DC /* LocationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE91C552ABFB594004741DC /* LocationData.swift */; };
 		0DEC3BA32ABA8FE4003C1500 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEC3BA22ABA8FE4003C1500 /* AppDelegate.swift */; };
 		0DEC3BA52ABA8FE4003C1500 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEC3BA42ABA8FE4003C1500 /* SceneDelegate.swift */; };
 		0DEC3BA72ABA8FE4003C1500 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEC3BA62ABA8FE4003C1500 /* ViewController.swift */; };
@@ -17,6 +18,8 @@
 		0DEC3BBD2ABA8FF1003C1500 /* Weather_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEC3BBC2ABA8FF1003C1500 /* Weather_AppTests.swift */; };
 		0DEC3BC72ABA8FF1003C1500 /* Weather_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEC3BC62ABA8FF1003C1500 /* Weather_AppUITests.swift */; };
 		0DEC3BC92ABA8FF1003C1500 /* Weather_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEC3BC82ABA8FF1003C1500 /* Weather_AppUITestsLaunchTests.swift */; };
+		0DEC3BD62ABD2160003C1500 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEC3BD52ABD2160003C1500 /* ApiManager.swift */; };
+		0DEC3BD82ABD26EF003C1500 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEC3BD72ABD26EF003C1500 /* WeatherData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DE91C552ABFB594004741DC /* LocationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationData.swift; sourceTree = "<group>"; };
 		0DEC3B9F2ABA8FE4003C1500 /* Weather App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weather App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DEC3BA22ABA8FE4003C1500 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0DEC3BA42ABA8FE4003C1500 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +55,8 @@
 		0DEC3BC22ABA8FF1003C1500 /* Weather AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weather AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DEC3BC62ABA8FF1003C1500 /* Weather_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather_AppUITests.swift; sourceTree = "<group>"; };
 		0DEC3BC82ABA8FF1003C1500 /* Weather_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0DEC3BD52ABD2160003C1500 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		0DEC3BD72ABD26EF003C1500 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,9 @@
 				0DEC3BB02ABA8FF1003C1500 /* LaunchScreen.storyboard */,
 				0DEC3BB32ABA8FF1003C1500 /* Info.plist */,
 				0DEC3BAB2ABA8FE4003C1500 /* Weather_App.xcdatamodeld */,
+				0DEC3BD52ABD2160003C1500 /* ApiManager.swift */,
+				0DEC3BD72ABD26EF003C1500 /* WeatherData.swift */,
+				0DE91C552ABFB594004741DC /* LocationData.swift */,
 			);
 			path = "Weather App";
 			sourceTree = "<group>";
@@ -263,7 +272,10 @@
 			files = (
 				0DEC3BAD2ABA8FE4003C1500 /* Weather_App.xcdatamodeld in Sources */,
 				0DEC3BA72ABA8FE4003C1500 /* ViewController.swift in Sources */,
+				0DEC3BD62ABD2160003C1500 /* ApiManager.swift in Sources */,
 				0DEC3BA32ABA8FE4003C1500 /* AppDelegate.swift in Sources */,
+				0DE91C562ABFB594004741DC /* LocationData.swift in Sources */,
+				0DEC3BD82ABD26EF003C1500 /* WeatherData.swift in Sources */,
 				0DEC3BA52ABA8FE4003C1500 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
